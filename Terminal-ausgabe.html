@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Ausgabe</title>
+    <link rel="stylesheet" href="stylesheet-firstProject_Git.css">
+</head>
+
+<body>
+    <br> Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git
+    <br>$ mkdir myproject
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git
+    <br>$ cd myproject
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject
+    <br>$ git init
+    <br>Initialized empty Git repository in C:/Users/Thomas/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovationsct/.git/
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ ls
+    <br>'Screenshot 2023-09-04 104033.png' 'Screenshot 2023-09-04 104113.png' data-index-for-git.html
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git status
+    <br>On branch master
+    <br>
+    <br>No commits yet
+    <br>
+    <br>Untracked files:
+    <br> (use "git add (file)..." to include in what will be committed)
+    <br> Screenshot 2023-09-04 104033.png
+    <br> Screenshot 2023-09-04 104113.png
+    <br> data-index-for-git.html
+    <br>
+    <br>nothing added to commit but untracked files present (use "git add" to track)
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git add data-index-for-git.html
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git status
+    <br>On branch master
+    <br>
+    <br>No commits yet
+    <br>
+    <br>Changes to be committed:
+    <br> (use "git rm --cached (file)..." to unstage)
+    <br> new file: data-index-for-git.html
+    <br>
+    <br>Untracked files:
+    <br> (use "git add (file)..." to include in what will be committed)
+    <br> Screenshot 2023-09-04 104033.png
+    <br> Screenshot 2023-09-04 104113.png
+    <br>
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git add --all
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git status
+    <br>On branch master
+    <br>
+    <br>No commits yet
+    <br>
+    <br>Changes to be committed:
+    <br> (use "git rm --cached (file)..." to unstage)
+    <br> new file: README.md
+    <br> new file: Screenshot 2023-09-04 104033.png
+    <br> new file: Screenshot 2023-09-04 104113.png
+    <br> new file: Screenshot 2023-09-04 104709.png
+    <br> new file: data-index-for-git.html
+    <br> new file: stylesheet-firstProject_Git.css
+    <br>
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git add --all
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git status
+    <br>On branch master
+    <br>
+    <br>No commits yet
+    <br>
+    <br>Changes to be committed:
+    <br> (use "git rm --cached (file)..." to unstage)
+    <br> new file: README.md
+    <br> new file: data-index-for-git.html
+    <br> new file: stylesheet-firstProject_Git.css
+    <br>
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git commit -m "First release of Hello World!"
+    <br>[master (root-commit) 762f076] First release of Hello World!
+    <br> 3 files changed, 30 insertions(+)
+    <br> create mode 100644 README.md
+    <br> create mode 100644 data-index-for-git.html
+    <br> create mode 100644 stylesheet-firstProject_Git.css
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git --short
+    <br>unknown option: --short
+    <br>usage: git [-v | --version] [-h | --help] [-C (path)] [-c (name)=(value)]
+    <br> [--exec-path[=(path)]] [--html-path] [--man-path] [--info-path]
+    <br> [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+    <br> [--git-dir=(path)] [--work-tree=(path)] [--namespace=(name)]
+    <br> [--config-env=(name)=(envvar)] (command) [(args)]
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git status --short
+    <br> M data-index-for-git.html
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git commit -a -m "Updated index.html with a new line"
+    <br>[master 248be25] Updated index.html with a new line
+    <br> 1 file changed, 1 insertion(+)
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git log
+    <br>commit 248be2544f338106f25867a718009a6a1cce16ae (HEAD -> master)
+    <br>Author: fOrceTea-test (forsty95@gmail.com)
+    <br>Date: Mon Sep 4 11:16:39 2023 +0200
+    <br>
+    <br> Updated index.html with a new line
+    <br>
+    <br>commit 762f0763d9f24a226edd57c1dc682434ee43cf65
+    <br>Author: fOrceTea-test (forsty95@gmail.com)
+    <br>Date: Mon Sep 4 11:07:58 2023 +0200
+    <br>
+    <br> First release of Hello World!
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git help --all
+    <br>See 'git help (command)' to read about a specific subcommand
+    <br>
+    <!-- <br>Main Porcelain Commands
+    <br> add Add file contents to the index
+    <br> am Apply a series of patches from a mailbox
+    <br> archive Create an archive of files from a named tree
+    <br> bisect Use binary search to find the commit that introduced a bug
+    <br> branch List, create, or delete branches
+    <br> bundle Move objects and refs by archive
+    <br> checkout Switch branches or restore working tree files
+    <br> cherry-pick Apply the changes introduced by some existing commits
+    <br> citool Graphical alternative to git-commit
+    <br> clean Remove untracked files from the working tree
+    <br> clone Clone a repository into a new directory
+    <br> commit Record changes to the repository
+    <br> describe Give an object a human readable name based on an available ref
+    <br> diff Show changes between commits, commit and working tree, etc
+    <br> fetch Download objects and refs from another repository
+    <br> format-patch Prepare patches for e-mail submission
+    <br> gc Cleanup unnecessary files and optimize the local repository
+    <br> gitk The Git repository browser
+    <br> grep Print lines matching a pattern
+    <br> gui A portable graphical interface to Git
+    <br> init Create an empty Git repository or reinitialize an existing one
+    <br> log Show commit logs
+    <br> maintenance Run tasks to optimize Git repository data
+    <br> merge Join two or more development histories together
+    <br> mv Move or rename a file, a directory, or a symlink
+    <br> notes Add or inspect object notes
+    <br> pull Fetch from and integrate with another repository or a local branch
+    <br> push Update remote refs along with associated objects
+    <br> range-diff Compare two commit ranges (e.g. two versions of a branch)
+    <br> rebase Reapply commits on top of another base tip
+    <br> reset Reset current HEAD to the specified state
+    <br> restore Restore working tree files
+    <br> revert Revert some existing commits
+    <br> rm Remove files from the working tree and from the index
+    <br> scalar A tool for managing large Git repositories
+    <br> shortlog Summarize 'git log' output
+    <br> show Show various types of objects
+    <br> sparse-checkout Reduce your working tree to a subset of tracked files
+    <br> stash Stash the changes in a dirty working directory away
+    <br> status Show the working tree status
+    <br> submodule Initialize, update or inspect submodules
+    <br> switch Switch branches
+    <br> tag Create, list, delete or verify a tag object signed with GPG
+    <br> worktree Manage multiple working trees
+    <br>
+    <br>Ancillary Commands / Manipulators
+    <br> config Get and set repository or global options
+    <br> fast-export Git data exporter
+    <br> fast-import Backend for fast Git data importers
+    <br> filter-branch Rewrite branches
+    <br> mergetool Run merge conflict resolution tools to resolve merge conflicts
+    <br> pack-refs Pack heads and tags for efficient repository access
+    <br> prune Prune all unreachable objects from the object database
+    <br> reflog Manage reflog information
+    <br> remote Manage set of tracked repositories
+    <br> repack Pack unpacked objects in a repository
+    <br> replace Create, list, delete refs to replace objects
+    <br>
+    <br>Ancillary Commands / Interrogators
+    <br> annotate Annotate file lines with commit information
+    <br> blame Show what revision and author last modified each line of a file
+    <br> bugreport Collect information for user to file a bug report
+    <br> count-objects Count unpacked number of objects and their disk consumption
+    <br> diagnose Generate a zip archive of diagnostic information
+    <br> difftool Show changes using common diff tools
+    <br> fsck Verifies the connectivity and validity of the objects in the database
+    <br> gitweb Git web interface (web frontend to Git repositories)
+    <br> help Display help information about Git
+    <br> instaweb Instantly browse your working repository in gitweb
+    <br> merge-tree Perform merge without touching index or working tree
+    <br> rerere Reuse recorded resolution of conflicted merges
+    <br> show-branch Show branches and their commits
+    <br> verify-commit Check the GPG signature of commits
+    <br> verify-tag Check the GPG signature of tags
+    <br> version Display version information about Git
+    <br> whatchanged Show logs with difference each commit introduces
+    <br>
+    <br>Interacting with Others
+    <br> archimport Import a GNU Arch repository into Git
+    <br> cvsexportcommit Export a single commit to a CVS checkout
+    <br> cvsimport Salvage your data out of another SCM people love to hate
+    <br> cvsserver A CVS server emulator for Git
+    <br> imap-send Send a collection of patches from stdin to an IMAP folder
+    <br> p4 Import from and submit to Perforce repositories
+    <br> quiltimport Applies a quilt patchset onto the current branch
+    <br> request-pull Generates a summary of pending changes
+    <br> send-email Send a collection of patches as emails
+    <br> svn Bidirectional operation between a Subversion repository and Git
+    <br>
+    <br>Low-level Commands / Manipulators
+    <br>...skipping...
+    <br>User-facing repository, command and file interfaces
+    <br> attributes Defining attributes per path
+    <br> cli Git command-line interface and conventions
+    <br> hooks Hooks used by Git
+    <br> ignore Specifies intentionally untracked files to ignore
+    <br> mailmap Map author/committer names and/or E-Mail addresses
+    <br> modules Defining submodule properties
+    <br> repository-layout Git Repository Layout
+    <br> revisions Specifying revisions and ranges for Git
+    <br>
+    <br>Developer-facing file formats, protocols and other interfaces
+    <br> format-bundle The bundle file format
+    <br> format-chunk Chunk-based file formats
+    <br> format-commit-graph Git commit-graph format
+    <br> format-index Git index format
+    <br> format-pack Git pack format
+    <br> format-signature Git cryptographic signature formats
+    <br> protocol-capabilities Protocol v0 and v1 capabilities
+    <br> protocol-common Things common to various protocols
+    <br> protocol-http Git HTTP-based protocols
+    <br> protocol-pack How packs are transferred over-the-wire
+    <br> protocol-v2 Git Wire Protocol, Version 2
+    <br>
+    <br>External commands
+    <br> askpass
+    <br> askyesno
+    <br> credential-helper-selector
+    <br> credential-manager
+    <br> credential-manager-core
+    <br> credential-manager-ui
+    <br> flow
+    <br> lfs
+    <br> update-git-for-windows
+    <br>See 'git help (command)' to read about a specific subcommand
+    <br>
+    <br>Main Porcelain Commands
+    <br> add Add file contents to the index
+    <br> am Apply a series of patches from a mailbox
+    <br> archive Create an archive of files from a named tree
+    <br> bisect Use binary search to find the commit that introduced a bug
+    <br> branch List, create, or delete branches
+    <br> bundle Move objects and refs by archive
+    <br> checkout Switch branches or restore working tree files
+    <br> cherry-pick Apply the changes introduced by some existing commits
+    <br> citool Graphical alternative to git-commit
+    <br> clean Remove untracked files from the working tree
+    <br> clone Clone a repository into a new directory
+    <br> commit Record changes to the repository
+    <br> describe Give an object a human readable name based on an available ref
+    <br> diff Show changes between commits, commit and working tree, etc
+    <br> fetch Download objects and refs from another repository
+    <br> format-patch Prepare patches for e-mail submission
+    <br> gc Cleanup unnecessary files and optimize the local repository
+    <br> gitk The Git repository browser
+    <br> grep Print lines matching a pattern
+    <br> gui A portable graphical interface to Git
+    <br> init Create an empty Git repository or reinitialize an existing one
+    <br> log Show commit logs
+    <br> maintenance Run tasks to optimize Git repository data
+    <br> merge Join two or more development histories together
+    <br> mv Move or rename a file, a directory, or a symlink
+    <br> notes Add or inspect object notes
+    <br> pull Fetch from and integrate with another repository or a local branch
+    <br> push Update remote refs along with associated objects
+    <br> range-diff Compare two commit ranges (e.g. two versions of a branch)
+    <br> rebase Reapply commits on top of another base tip -->
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git branch hello-world-images
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git branch
+    <br> hello-world-images
+    <br>* master
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git checkout hello-world-images
+    <br>Switched to branch 'hello-world-images'
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git status
+    <br>On branch hello-world-images
+    <br>Changes not staged for commit:
+    <br> (use "git add (file)..." to update what will be committed)
+    <br> (use "git restore (file)..." to discard changes in working directory)
+    <br> modified: data-index-for-git.html
+    <br>
+    <br>Untracked files:
+    <br> (use "git add (file)..." to include in what will be committed)
+    <br> img_hello_world.jpg
+    <br>
+    <br>no changes added to commit (use "git add" and/or "git commit -a")
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git add --all
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git status
+    <br>On branch hello-world-images
+    <br>Changes to be committed:
+    <br> (use "git restore --staged (file)..." to unstage)
+    <br> modified: data-index-for-git.html
+    <br> new file: img_hello_world.jpg
+    <br>
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git commit -m "Added image to Hello World"
+    <br>[hello-world-images e574a8d] Added image to Hello World
+    <br> 2 files changed, 1 insertion(+)
+    <br> create mode 100644 img_hello_world.jpg
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ ls
+    <br>README.md data-index-for-git.html img_hello_world.jpg stylesheet-firstProject_Git.css
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git checkout master
+    <br>Switched to branch 'master'
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ ls
+    <br>README.md data-index-for-git.html stylesheet-firstProject_Git.css
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git checkout -b emergency-fix
+    <br>Switched to a new branch 'emergency-fix'
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (emergency-fix)
+    <br>$ git status
+    <br>On branch emergency-fix
+    <br>Changes not staged for commit:
+    <br> (use "git add (file)..." to update what will be committed)
+    <br> (use "git restore (file)..." to discard changes in working directory)
+    <br> modified: data-index-for-git.html
+    <br>
+    <br>no changes added to commit (use "git add" and/or "git commit -a")
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (emergency-fix)
+    <br>$ git add data-index-for-git.html
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (emergency-fix)
+    <br>$ git commit -m "updated index.html with emergency fix"
+    <br>[emergency-fix 24dcc1a] updated index.html with emergency fix
+    <br> 1 file changed, 1 insertion(+), 2 deletions(-)
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (emergency-fix)
+    <br>$ git checkout master
+    <br>Switched to branch 'master'
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git merge emergency-fix
+    <br>Updating 248be25..24dcc1a
+    <br>Fast-forward
+    <br> data-index-for-git.html | 3 +--
+    <br> 1 file changed, 1 insertion(+), 2 deletions(-)
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git branch -d emergency-fix
+    <br>Deleted branch emergency-fix (was 24dcc1a).
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git checkout hello-world-images
+    <br>Switched to branch 'hello-world-images'
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git add --all
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git commit -m "added new image"
+    <br>[hello-world-images f6829bc] added new image
+    <br> 2 files changed, 1 insertion(+)
+    <br> create mode 100644 img_hello_git.jpg
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (hello-world-images)
+    <br>$ git checkout master
+    <br>Switched to branch 'master'
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git merge hello-world-images
+    <br>Auto-merging data-index-for-git.html
+    <br>CONFLICT (content): Merge conflict in data-index-for-git.html
+    <br>Automatic merge failed; fix conflicts and then commit the result.
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master|MERGING)
+    <br>$ git status
+    <br>On branch master
+    <br>You have unmerged paths.
+    <br> (fix conflicts and run "git commit")
+    <br> (use "git merge --abort" to abort the merge)
+    <br>
+    <br>Changes to be committed:
+    <br> new file: img_hello_git.jpg
+    <br> new file: img_hello_world.jpg
+    <br>
+    <br>Unmerged paths:
+    <br> (use "git add (file)..." to mark resolution)
+    <br> both modified: data-index-for-git.html
+    <br>
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master|MERGING)
+    <br>$ git add data-index-for-git.html
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master|MERGING)
+    <br>$ git add data-index-for-git.html
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master|MERGING)
+    <br>$ git status
+    <br>On branch master
+    <br>All conflicts fixed but you are still merging.
+    <br> (use "git commit" to conclude merge)
+    <br>
+    <br>Changes to be committed:
+    <br> modified: data-index-for-git.html
+    <br> new file: img_hello_git.jpg
+    <br> new file: img_hello_world.jpg
+    <br>
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master|MERGING)
+    <br>$ git commit -m "merged with hello-world-images after fixing conflicts"
+    <br>[master 5d0893d] merged with hello-world-images after fixing conflicts
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$ git branch -d hello-world-images
+    <br>Deleted branch hello-world-images (was f6829bc).
+    <br>
+    <br>Thomas@Thomas-PC MINGW64 ~/Desktop/OnePiece/_MonkeyDLuffy/stateSystem/ET-Innovations/Git/myproject (master)
+    <br>$
+    <br>
+</body>
+
+</html>
